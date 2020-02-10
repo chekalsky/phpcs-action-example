@@ -1,0 +1,7 @@
+{
+  "type": "project",
+  "license": "MIT",
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.5"
+  }
+}
