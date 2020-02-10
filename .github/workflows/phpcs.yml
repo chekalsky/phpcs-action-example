@@ -7,4 +7,4 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: PHP_CodeSniffer
-        uses: chekalsky/phpcs-action@issue-missing-basepath
+        uses: chekalsky/phpcs-action@9e32b1020a192ed7b48c8f7d1da4ec8ee092488a
