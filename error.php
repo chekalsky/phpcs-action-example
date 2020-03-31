@@ -1,3 +1,6 @@
 <?php
 
-class Test {}
+namespace App;
+
+class Test {
+}
