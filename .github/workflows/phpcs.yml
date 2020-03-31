@@ -7,4 +7,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: PHP_CodeSniffer
-        uses: chekalsky/phpcs-action@issue-missing-basepath
+        uses: chekalsky/phpcs-action@v1
+          with:
+            enable_warnings: true
