@@ -7,4 +7,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: PHP_CodeSniffer
-        uses: chekalsky/phpcs-action@v1
+        uses: chekalsky/phpcs-action@option-installed-paths
+        with:
+          installed_paths: ./vendor/phpcompatibility/phpcompatibility-wp
