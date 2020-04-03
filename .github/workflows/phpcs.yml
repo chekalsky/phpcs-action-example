@@ -11,5 +11,4 @@ jobs:
       - name: PHP_CodeSniffer
         uses: chekalsky/phpcs-action@option-installed-paths
         with:
-          installed_paths: ./vendor/phpcompatibility/phpcompatibility-wp
-          #/home/runner/work/phpcs-action-example/phpcs-action-example
+          installed_paths: /home/runner/work/phpcs-action-example/phpcs-action-example/vendor/phpcompatibility/phpcompatibility-wp
