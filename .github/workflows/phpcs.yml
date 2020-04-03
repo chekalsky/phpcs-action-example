@@ -8,7 +8,5 @@ jobs:
       - uses: actions/checkout@v2
       - name: Install dependencies
         run: composer install --prefer-dist --no-progress --no-suggest
-      - name: Install dependencies
-        run: composer run-script install-codestandards
       - name: PHP_CodeSniffer
         uses: chekalsky/phpcs-action@option-installed-paths
