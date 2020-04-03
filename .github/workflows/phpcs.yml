@@ -9,4 +9,6 @@ jobs:
       - name: Install dependencies
         run: composer install --prefer-dist --no-progress --no-suggest
       - name: PHP_CodeSniffer
-        uses: chekalsky/phpcs-action@extra-sniffs
+        uses: chekalsky/phpcs-action@option-installed-paths
+        with:
+          installed_paths: './vendor/phpcompatibility/php-compatibility'
