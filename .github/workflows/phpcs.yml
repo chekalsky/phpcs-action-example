@@ -10,7 +10,5 @@ jobs:
         run: composer install --prefer-dist --no-progress --no-suggest
       - name: PHP_CodeSniffer
         uses: chekalsky/phpcs-action@option-installed-paths
-        env:
-          path: $GITHUB_WORKSPACE
         with:
-          installed_paths: '{{ path }}/vendor/phpcompatibility/php-compatibility'
+          installed_paths: '${{ github.workspace }}/vendor/phpcompatibility/php-compatibility'
