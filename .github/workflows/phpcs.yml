@@ -11,4 +11,4 @@ jobs:
       - name: PHP_CodeSniffer
         uses: chekalsky/phpcs-action@option-installed-paths
         with:
-          installed_paths: 'vendor/phpcompatibility/php-compatibility'
+          installed_paths: '{{ github.workspace }}/vendor/phpcompatibility/php-compatibility'
