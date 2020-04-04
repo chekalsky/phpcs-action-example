@@ -3,6 +3,9 @@
          xsi:noNamespaceSchemaLocation="vendor/squizlabs/php_codesniffer/phpcs.xsd">
     <description>PSR12</description>
 
+    <rule ref="PHPCompatibility"/>
+    <config name="testVersion" value="7.4"/>
+
     <rule ref="PSR12"/>
     <file>.</file>
     <exclude-pattern>vendor</exclude-pattern>
